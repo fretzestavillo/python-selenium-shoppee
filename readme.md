@@ -1,7 +1,1 @@
-auto login to https://shopee.ph/
-put credentials
-hover your account and click My purchase
-click the completed order
-get the quantity of your order and the total cost
-aut open excel
-and put the names of the order and the total
+This project teach on how to automatically login in shopee.com and find your purchases and the total the amount that you spent. Once get all the data it's automatically open excel file and send it in gmail. It can also login in gmail using  personal account and send the excel file.
