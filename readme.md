@@ -1,6 +1,6 @@
 This project teach on how to automatically login in shopee.com and find your purchases and the total the amount that you spent. Once get all the data it's automatically open excel file and send it in gmail. It can also login in gmail using  personal account and send the excel file.
 
-
+python3 -m venv venv
 
 source venv/bin/activate
 
