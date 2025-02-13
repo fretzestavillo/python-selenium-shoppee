@@ -1,28 +1,60 @@
-This project teach on how to automatically login in shopee.com and find your purchases and the total the amount that you spent. Once get all the data it's automatically open excel file and send it in gmail. It can also login in gmail using  personal account and send the excel file.
+This project automates the process of logging into Shopee, retrieving purchase history, calculating the total amount spent, and exporting the data to an Excel file. Additionally, the script logs into Gmail using a personal account and sends the Excel file via email.
 
 
+Getting Started
+
+To set up the project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/fretzestavillo/python-selenium-shoppee.git
+
+```
+
+2. Change Directory:
+
+```bash
+cd python-selenium-shoppee/
+
+```
 
 
+3. Set Up Virtual Environment:
+
+```bash
 
 python3 -m venv venv
-
 source venv/bin/activate
 
+```
 
+4. Install Dependencies:
+
+```bash
 
 pip install requirements.txt
 
 
-#!/bin/bash
+```
+5. Install Google Chrome:
 
-echo "Installing Google Chrome..."
+```bash
+
+
 wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt --fix-broken install -y
 rm google-chrome-stable_current_amd64.deb
 
-echo "Installing dependencies..."
-pip install -r requirements.txt
+```
 
-echo "Setup complete!"
+6. Run the Script:
 
+
+```bash
+
+
+python main.py
+
+```
